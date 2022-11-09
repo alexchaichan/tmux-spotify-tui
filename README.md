@@ -44,6 +44,8 @@ Press prefix + R to install it.
 
 <!-- ### Configurations -->
 
+___
+
 ### License
 
 [MIT](LICENSE)
