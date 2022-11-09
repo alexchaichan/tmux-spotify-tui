@@ -44,12 +44,12 @@ Press prefix + R to install it.
 
 <!-- ### Configurations -->
 
+### License
+
+[MIT](LICENSE)
+
 ___
 
 props is going to:
 
 [imomaliev](https://github.com/imomaliev) for creating [tmux-keyboard-layout](https://github.com/imomaliev/tmux-keyboard-layout)
-
-### License
-
-[MIT](LICENSE)
