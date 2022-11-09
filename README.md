@@ -8,7 +8,7 @@ Plugin that shows current playing song with [Spotify-TUI](https://github.com/Rig
 set -g status-right '#{actual_song}'
 ```
 
-### Installation with Tmux Plugin Manager (recommended)
+### Installation with Tmux Plugin Manager
 
 Add plugin to the list of TPM plugins:
 
@@ -18,7 +18,7 @@ set -g @plugin 'alexchaichan/tmux-spotify-tui'
 
 Press prefix + I to install it.
 
-### Manual Installation
+### Manual Installation (recommended)
 
 Clone the repo:
 
