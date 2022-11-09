@@ -1,11 +1,11 @@
 # Tmux Keyboard Layout plugin
 
-Plugin that shows current keyboard layout.
+Plugin that shows current playing song with [Spotify-TUI](https://github.com/Rigellute/spotify-tui).
 
 ### Usage
 
 ```tmux.conf
-set -g status-right '#{keyboard_layout}'
+set -g status-right '#{actual_song}'
 ```
 
 ### Installation with Tmux Plugin Manager (recommended)
@@ -13,7 +13,7 @@ set -g status-right '#{keyboard_layout}'
 Add plugin to the list of TPM plugins:
 
 ```tmux.conf
-set -g @plugin 'imomaliev/tmux-keyboard-layout'
+set -g @plugin 'alexchaichan/tmux-spotify-tui'
 ```
 
 Press prefix + I to install it.
@@ -23,13 +23,13 @@ Press prefix + I to install it.
 Clone the repo:
 
 ```bash
-$ git clone https://github.com/imomaliev/tmux-keyboard-layout.git ~/clone/path
+$ git clone https://github.com/alexchaichan/tmux-spotify-tui.git ~/clone/path
 ```
 
 Add this line to your .tmux.conf:
 
 ```tmux.conf
-run-shell ~/clone/path/keyboard-layout.tmux
+run-shell ~/clone/path/actual_song.tmux
 ```
 
 Reload TMUX environment with:
@@ -38,26 +38,17 @@ Reload TMUX environment with:
 $ tmux source-file ~/.tmux.conf
 ```
 
-### Configurations
+or:
 
-#### Change option scope (default g - global)
+Press prefix + R to install it.
 
-Follows same rules as `set-option`
-
-**Special case**: To set scope to session use `'-'`, because by default session scope used when no param is provided.
-
-```tmux.conf
-set -g @keyboard_layout:option_scope '-'
-```
-
-#### Change output length (default 16)
-
-Make output length equal to 2
-
-```tmux.conf
-set -g @keyboard_layout:length 2
-```
+<!-- ### Configurations -->
 
 ### License
+
+props is going to:
+
+[imomaliev](https://github.com/imomaliev) for creating [tmux-keyboard-layout](https://github.com/imomaliev/tmux-keyboard-layout)
+
 
 [MIT](LICENSE)
