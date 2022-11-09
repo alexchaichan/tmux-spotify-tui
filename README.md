@@ -1,4 +1,4 @@
-# Tmux Keyboard Layout plugin
+# Tmux Spotify-TUI plugin
 
 Plugin that shows current playing song with [Spotify-TUI](https://github.com/Rigellute/spotify-tui).
 
