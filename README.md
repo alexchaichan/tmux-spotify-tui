@@ -42,7 +42,21 @@ or:
 
 Press prefix + R to install it.
 
-<!-- ### Configurations -->
+### Configurations
+
+**For tmux user**
+
+Bind `F7`, `F8`, `F9` to prev, toggle, next
+
+```
+bind-key -n F7 run-shell "spt playback --previous >/dev/null 2>&1"
+bind-key -n F8 run-shell "spt playback --toggle >/dev/null 2>&1"
+bind-key -n F9 run-shell "spt playback --next >/dev/null 2>&1"
+```
+
+If you are a **Mac user**, you might be interested in unlinking the media buttons to prevent Music from opening.
+
+`launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist`
 
 ___
 
