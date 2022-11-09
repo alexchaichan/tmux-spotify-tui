@@ -44,6 +44,8 @@ Press prefix + R to install it.
 
 <!-- ### Configurations -->
 
+___
+
 props is going to:
 
 [imomaliev](https://github.com/imomaliev) for creating [tmux-keyboard-layout](https://github.com/imomaliev/tmux-keyboard-layout)
