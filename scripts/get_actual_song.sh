@@ -5,7 +5,7 @@ string="$(spt playback)"
 firstletter=${string:0:1}
 thirdletter=${string:2:2}
 
-if [[ "$firstletter" == "▶" || "$firstletter" == "♥" && "$thirdletter" != "⏸ "  ]]; then
+if [[ "$firstletter" == "▶" || "$firstletter" == "♥" || "$firstletter" == "🔀" && "$thirdletter" != "⏸ "  ]]; then
   song="$(spt playback)"
   echo $song | cut -f1 -d"-"
 
