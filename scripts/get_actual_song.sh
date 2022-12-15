@@ -1,12 +1,14 @@
 #!/bin/bash
 set -euo pipefail
 
-string="$(spt playback)"
-firstletter=${string:0:1}
-thirdletter=${string:2:2}
+song="$(spt playback)"
 
-if [[ "$firstletter" == "▶" || "$firstletter" == "♥" || "$firstletter" == "🔀" && "$thirdletter" != "⏸ "  ]]; then
-  song="$(spt playback)"
-  echo $song | cut -f1 -d"-"
+if [[ $song =~ ['⏸'] ]]; then
+
+   echo $song | sed 's/[⏸🔀♥▶🔁🔂]//g'
+
+else
+
+   echo $song | sed 's/[⏸🔀♥▶🔁🔂]//g'
 
 fi
