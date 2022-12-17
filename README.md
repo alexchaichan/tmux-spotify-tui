@@ -2,7 +2,7 @@
 
 Plugin that shows current playing song with [Spotify-TUI](https://github.com/Rigellute/spotify-tui).
 
-![screenshot](screenshot.png | width=100)
+![screenshot](screenshot.png)
 
 ### Recommendation
 
