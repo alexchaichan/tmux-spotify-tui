@@ -4,6 +4,10 @@ Plugin that shows current playing song with [Spotify-TUI](https://github.com/Rig
 
 ![screenshot](screenshot.png)
 
+### Recommendation
+
+To see all the extra characters I recommend to use a [nerdfont](https://www.nerdfonts.com/#home)
+
 ### Usage
 
 ```tmux.conf
