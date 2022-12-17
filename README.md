@@ -56,7 +56,7 @@ bind-key -n F8 run-shell "spt playback --toggle >/dev/null 2>&1"
 bind-key -n F9 run-shell "spt playback --next >/dev/null 2>&1"
 ```
 
-If you are a **Mac user**, you might be interested in unlinking the media buttons to prevent Music from opening.
+If you are a **Mac user**, you might be interested in unlinking the media buttons to prevent `Music.app` from opening.
 
 `launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist`
 
